@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  ul, ol {
+    list-style: none;
+  }
+  
+  button {
+    border: none;
+  }
+  
+  .header {
+    padding: 10px 0;
+    background: rgb(3, 155, 229);
+  }
+  
+  .container {
+    width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    height: 70px;
+    transition: all 1s linear;
+    margin-left: -200px;
+  }
+
+  .logo:hover {
+    margin-left: 0px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+  }
+  
+  .menu a {
+    transition: all 0.3s linear;
+    color: white;
+  }
+
+  .menu a:hover {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .bg__image {
+    min-height: calc(100vh - 81px);
+    background: url(https://images.unsplash.com/photo-1682686581660-3693f0c588d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+  }
+/* иконки на ссылки для соцсетей */
+  .fa-discord {
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+.fa-discord:hover {
+  color: #001d6d;
+  transform: scale(1.5);
+}
+
+.fa-facebook {
+  color: #fff;
+  transition: all 0.3s linear;
+}
+
+.fa-facebook:hover {
+color: #ffd54b;
+
+transform: scale(1.5);
+}
+
+.fa-instagram{
+  color: #fff;
+  transition: all 0.3s linear;
+}
+
+.fa-instagram:hover {
+color: #ff4bf0;
+transform: scale(1.5);
+}
+/* конец соцсетей */
+  /* мы заботимся о вас */
+  .new {
+    margin-top: 100px;
+  }
+  
+  .new__what__news {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+.new__content__title {
+  color: black;
+  transition: all 0.3s linear;
+  }
+
+.new__content__title:hover {
+  color:rgb(70, 141, 70) ;
+  box-shadow: 10px -10px 10px -10px black;
+}
+  
+  .new__content__title__text {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  .new__content__inner__text {
+    width: 490px;
+  }
+/* конец мы заботимся о вас */
+  /* кнопка дисковер мор 1 */
+  .btn {
+    padding: 20px 60px;
+    background: rgb(174, 213, 129);
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+  
+  .btn:hover {
+    background: rgb(0, 188, 212);
+    color: #fff;
+  }
+  /* конец первой кнопки */
+  /* линия в мы заботимся о вас */
+  .line {
+    height: 4px;
+    width: 200px;
+    background: rgb(207, 216, 220);
+    margin-bottom: 10px;
+  }
+  /* конец линии */
+  /* начало трех фотак с названием: опасные горки */
+  .active {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .active__head {
+    font-size: 24px;
+  }
+
+.active__title__content {
+  transition: all 0.3s linear;
+}
+
+.active__title__content:hover {
+  box-shadow: 10px -10px 10px -10px;
+}
+  
+  .active__today {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  
+  .active__today, .active__head {
+    text-align: center;
+  } 
+  
+  .new__content__img {
+    width: 800px;
+  }
+  
+  .new__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .active__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .active__title__image {
+    width: 430px;
+    margin-bottom: 10px;
+  }
+  
+  .active__title__content {
+    width: 430px;
+    text-align: center;
+  }
+  
+  .active__title__name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+/* конец опасных горок */
+/* начало футера */
+  
+  .footer {
+    margin-top: 100px;
+    background: #388E3C;
+    padding: 50px 0 50px 0;
+    text-align: center;
+  }
+  
+  .footer__nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  footer i {
+    font-size: 40px;
+  }
+  
+  .copyright {
+    font-size: 14px;
+  }
+  
+  .author {
+    color: #FF4F97;
+    font-size: 14px;
+  }
+
+/* конец футера */
+/* фотка с - мы заботимся о вас */
+.akvapark {
+    height: 600px;
+    margin-right: 400px;
+    padding-right:100px ;
+}
+/* конец фотки */
+/* что это */
+.recre {
+    height:643px;
+    width: 425px;
+    margin-bottom: 50px;
+}
+/* удалю будет плохо, скорей всего */
